@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>project- 87 by online tutorials</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/af47116e55.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Protfolio</a>
+            <div class="menuTOggle"></div>
+            <ul class="nav">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </header>
+
+        <section id="home">
+            <div class="content">
+                <h2>John Seith</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat neque accusamus ut quo corrupti maxime nam tempora blanditiis aliquid est.</p>
+                <a href="#" class="btn">Contact Me</a>
+            </div>
+            <img src="men.png" alt="" class="men">
+        </section>
+
+
+
+        <section id="services">
+            <div class="secText">
+                <h2>What I m Great At</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ratione saepe voluptates non sequi odio incidunt illo rem! Id, non.</p>
+            </div>
+
+            <div class="content">
+                <div class="serviceBx">
+                    <img src="icon1 (1).png" alt="">
+                    <h3>Website Design</h3>
+                </div>
+                <div class="serviceBx">
+                    <img src="icon2 (1).png" alt="">
+                    <h3>Website Design</h3>
+                </div>
+                <div class="serviceBx">
+                    <img src="icon3 (1).png" alt="">
+                    <h3>Website Design</h3>
+                </div>
+                <div class="serviceBx">
+                    <img src="icon4.png" alt="">
+                    <h3>Website Design</h3>
+                </div>
+            </div>
+            <div class="center">
+                <a href="#" class="btn">Hire Me</a>
+
+            </div>
+        </section>
+
+
+        <section id="portfolio">
+            <div class="secText">
+                <h2>My Masterpiece Collection</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ratione saepe voluptates non sequi odio incidunt illo rem! Id, non.</p>
+            </div>
+
+            <div class="content">
+                <div class="imgBox">
+                    <img src="img1 (1).jpg" alt="">
+                </div>
+                <div class="imgBox">
+                    <img src="img2 (2).jpg" alt="">
+                </div>
+                <div class="imgBox">
+                    <img src="img3 (1).jpg" alt="">
+                </div>
+                <div class="imgBox">
+                    <img src="img4 (1).jpg" alt="">
+                </div>
+                <div class="imgBox">
+                    <img src="img5 (1).jpg" alt="">
+                </div>
+                <div class="imgBox">
+                    <img src="img6.jpg" alt="">
+                </div>
+            </div>
+            <div class="center">
+                <a href="#" class="btn">View  More</a>
+
+            </div>
+
+        </section>
+
+
+        <section id="contact">
+            <div class="secText">
+                <h2>Contact Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo ratione saepe voluptates non sequi odio incidunt illo rem! Id, non.</p>
+            </div>
+
+            <div class="content">
+                <a href="#"><i class="fa-solid fa-envelope"></i>dumb@gmail.com</a>
+                <a href="#"><i class="fa-solid fa-phone-volume"></i>+123 000 000 000</a>
+                <a href="#"><i class="fa-brands fa-skype"></i>skype</a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i>whats upp- +91 99986558</a>
+
+            </div>
+
+            <div class="center">
+                <p class="copyrights">Copyright &copy; 2023 <a href="#">Online Tutorials</a></p>
+            </div>
+
+        </section>
+        
+        <script>
+            let list = document.querySelector('.nav li');
+            function active(){
+                list.forEach((i) =>
+                i.classList.remove('active'));
+                this.classList.add('active'); 
+            }
+            list.forEach((i) =>
+            i.addEventListener('click', active));
+            
+            
+        </script>
+
+    
+    </body>
+</html>
